@@ -1,0 +1,20 @@
+inherit_from: .rubocop_todo.yml
+Documentation:
+    Enabled: false
+LineLength:
+  Enabled: true
+  Max: 80
+AllCops:
+  # Include gemspec and Rakefile
+  Exclude:
+    - 'vendor/**/*'
+    - 'bin/*'
+    - 'db/**/*'
+    - 'spec/**/*'
+    - 'config/**/*'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - 'lib/**/*'
+    - 'Rakefile'
+    - 'config.ru'
+    - 'test/**/*'
