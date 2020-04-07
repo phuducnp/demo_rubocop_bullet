@@ -11,14 +11,14 @@ Things you may want to cover:
 
 * Configuration
 
-* Database creation
+* rails db:create
 
-* Database initialization
+* rails db:migrate
 
-* How to run the test suite
+* rails db:seed
 
-* Services (job queues, cache servers, search engines, etc.)
+* rails s
 
-* Deployment instructions
+* Visit http://localhost:3000/posts
 
-* ...
+* Check console (or bullet.log file) to see report if N+1 exist
